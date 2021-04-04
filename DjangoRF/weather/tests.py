@@ -10,8 +10,8 @@ class Start:
     @staticmethod
     def run():
 
-        key_1 = '490686e9cbb3412b8a5c46b69ad5b937'
-        key_2 = '13ac60d6f31d31baeb768682b7205279'
+        key_1 = 'key_1'
+        key_2 = 'key_2'
         city_list = ['Moscow', 'Tokio', 'Paris', 'Habana', 'Penza', 'Canberra']
         cities_list_in_column = []
         qs_city_list = City.objects.all()
